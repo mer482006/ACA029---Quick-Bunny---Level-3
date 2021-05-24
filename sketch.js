@@ -130,7 +130,7 @@ function preload(){
   }
   
   function generateSnakes(){
-  if(frameCount % 30===0){
+  if(frameCount % 60===0){
   var snake = createSprite(600,random(70,520),random(30,120),5);
   snake.addImage(snakeImage);
   snake.scale=random(0.1,0.3);
